@@ -10,17 +10,10 @@ For example, if I have the following tree:
 
 And an unsorted list with the nodes:
   
-[{id: 2, parent_id: 4},
-  {id: 1, parent_id: 2},
-  {id: 6, parent_id: 4},
-  {id: 4, parent_id: null} .... ]
- 
+![alt text](https://i.imgur.com/w7V675M.png) 
  
 I want to put the nodes in the following structure:
 
-Class Node {
-  int id,
-  List<Node> childs,
-}
+![alt text](https://i.imgur.com/2VSI3w2.png)
 
 And be able to get the tree's root, and do other things with said tree (e.g.: print the tree in the console)
