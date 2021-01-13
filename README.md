@@ -4,7 +4,7 @@ This project will contain programs in different languages to work with trees bas
 
 =============================================================
 For example, if I have the following tree:
-
+    
     4
  2     6
 7 1   8 3
