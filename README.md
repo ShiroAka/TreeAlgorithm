@@ -6,11 +6,7 @@ This project will contain programs in different languages to work with trees bas
 
 For example, if I have the following tree:
     
-    4
-   / \
- 2     6
-/ \   / \
-7 1   8 3
+![alt text](https://i.imgur.com/GZtG36r.png)
 
 And an unsorted list with the nodes:
   
@@ -25,7 +21,6 @@ I want to put the nodes in the following structure:
 Class Node {
   int id,
   List<Node> childs,
-
 }
 
-And be able to the tree's root, and do other things with said tree (e.g.: draw the tree in the console)
+And be able to get the tree's root, and do other things with said tree (e.g.: print the tree in the console)
